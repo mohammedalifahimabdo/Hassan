@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع حسن</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> موقع نجوم الجزيرة</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الصفحة الرئيسية</a></li>
+                <li><a href="#about">عن الموقع</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>الصفحة الرئيسية</h2>
+        <p>مرحبا بكم في موقع الجزيرة، نحن نقدم أفضل الخدمات في مجالنا.</p>
+    </section>
+    
+    <section id="about">
+        <h2>عن الموقع</h2>
+        <p>موقع الجزيرةهو موقع مخصص لتقديم معلومات حول خدماتنا وتجربتنا.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <form>
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>جميع الحقوق محفوظة لموقع حسن &copy; 2024</p>
+    </footer>
+</body>
+</html>
